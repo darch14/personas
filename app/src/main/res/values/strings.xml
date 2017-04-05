@@ -11,4 +11,10 @@
     <string name="borrar">Borrar</string>
     <string name="numero">No.</string>
     <string name="pasatiempo">Pasa tiempo</string>
+    <string name="listar">Listar</string>
+    <string-array name="opciones">
+        <item>@string/registrar</item>
+        <item>@string/listar</item>
+    </string-array>
 </resources>
+ 
