@@ -80,14 +80,16 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cmdRegistrar"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="registrar" />
 
             <Button
                 android:text="@string/borrar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:id="@+id/cmdBorrar"
-                android:layout_weight="1" />
+                android:layout_weight="1"
+                android:onClick="borrar" />
         </LinearLayout>
 
     </LinearLayout>

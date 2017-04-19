@@ -16,7 +16,8 @@
         android:layout_alignParentTop="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:stretchColumns="*">
+        android:stretchColumns="*"
+        android:id="@+id/tblpersona">
 
         <TableRow
             android:layout_width="match_parent"
