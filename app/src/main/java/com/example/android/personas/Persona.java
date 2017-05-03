@@ -5,6 +5,7 @@ package com.example.android.personas;
  */
 
 public class Persona {
+    private String foto;
     private String nombre;
     private String apellido;
     private int edad;
@@ -15,6 +16,22 @@ public class Persona {
         this.apellido = apellido;
         this.edad = edad;
         this.pasatiempo = pasatiempo;
+    }
+
+    public Persona(String foto, String nombre, String apellido, int edad, String pasatiempo) {
+        this.foto = foto;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.edad = edad;
+        this.pasatiempo = pasatiempo;
+    }
+
+    public String getFoto() {
+        return foto;
+    }
+
+    public void setFoto(String foto) {
+        this.foto = foto;
     }
 
     public String getNombre() {
