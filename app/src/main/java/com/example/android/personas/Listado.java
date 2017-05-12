@@ -18,7 +18,7 @@ public class Listado extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_listado);
         tabla = (TableLayout)findViewById(R.id.tblpersona);
-        personas=Datos.getPersonas();
+        personas=Datos.traerPersonas(getApplicationContext());
 
         for (int i=0;i<personas.size();i++){
             TableRow fila=new TableRow(this);
